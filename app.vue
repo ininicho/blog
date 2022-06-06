@@ -1,10 +1,10 @@
 <template>
-  <div class="sm:py-10">
+  <div class="max-w-full px-8 py-8">
     <Html lang="en" />
     <Meta property="og:image" content="/cover.jpg" />
     <Meta name="twitter:card" content="summary_large_image" />
     <Navbar />
-    <NuxtPage />
+    <Hero />
   </div>
 </template>
 
