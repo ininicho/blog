@@ -21,4 +21,5 @@ export default defineNuxtConfig({
       theme: 'dracula'
     }
   },
+  layouts: '@/layouts',
 })
