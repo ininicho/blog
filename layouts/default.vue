@@ -1,13 +1,13 @@
 <template>
-    <Html lang="en" />
-    <Head>
-        <title>Some Title</title>
-    </Head>
-    <Meta property="og:image" content="/cover.jpg" />
-    <Meta name="twitter:card" content="summary_large_image" />
-    <div class="max-w-full px-8 py-8">
+    <div class=".layout-styled container mx-auto">
         <Navbar />
         <slot />
+        <Footer />
     </div>
-    <Footer />
 </template>
+
+<style lang="postcss">
+.layout-styled {
+    @apply relative transition duration-75 ease-in-out;
+}
+</style>
