@@ -23,13 +23,13 @@ export default {
 </script>
 
 <template>
-  <nav class="flex flex-row justify-center mx-auto px-16 my-auto pt-12 pb-4">
+  <nav class="flex flex-row justify-center px-16 pt-12 pb-6">
     <div class="container flex flex-wrap justify-between items-center">
       <NuxtLink to="/" class="flex justify-start items-center ml-0">
-        <p class="text-xl font-bold text-gray-800 dark:text-gray-200">Nicholaus Suprapto</p>
+        <p class="text-xl font-bold text-gray-800 dark:text-gray-200">NS</p>
       </NuxtLink>
       <div class="flex justify-end items-center md:order-2 text-gray-500 dark:text-gray-200">
-        <ColorModeSwitch class="hover:text-gray-700 dark:hover:text-gray-300 px-5 mb-0.5" />
+        <ColorModeSwitch class="hover:text-gray-700 dark:hover:text-gray-300 px-5" />
         <!-- TODO: Fix Menu Collapse Button -->
         <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center rounded-lg md:hidden hover:text-gray-700 dark:hover:text-gray-300" aria-controls="mobile-menu" aria-expanded="false">
           <Icon name="heroicons-outline:menu" />

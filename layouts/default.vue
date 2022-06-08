@@ -1,5 +1,5 @@
 <template>
-    <div class=".layout-styled">
+    <div class=".layout-styled container mx-auto">
         <Navbar />
         <slot />
         <Footer />

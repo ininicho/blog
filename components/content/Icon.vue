@@ -8,7 +8,11 @@ const props = defineProps({
   name: {
     type: String,
     required: true
-  }
+  },
+  size: {
+    type: Number,
+    default: 7
+  },
 })
 
 const icon: Ref<IconifyIcon | null> = ref(null)
@@ -22,7 +26,7 @@ watch(() => props.name, async () => {
 </script>
 
 <template>
-  <Iconify v-if="icon" :icon="icon" class="inline-block w-5 h-5" />
+  <Iconify v-if="icon" :icon="icon" class="inline-block w-7 h-7" />
   <Component :is="component" v-else-if="component" />
   <span v-else>{{ name }}</span>
 </template>
