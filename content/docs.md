@@ -1,5 +1,6 @@
 ---
 navTitle: 'Home'
+head.title: 'HomePage'
 ---
 
 # Content Wind :icon{name="carbon:sailboat-coastal" class="text-indigo-400"}
