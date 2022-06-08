@@ -1,22 +1,22 @@
 <script lang="ts">
 export default {
-  data() {
+  data () {
     return {
       navItems: [
         {
           name: 'Stories',
-          route: '/',
+          route: '/'
         },
         {
           name: 'About',
-          route: '/about',
-        },
-      ],
+          route: '/about'
+        }
+      ]
     }
   },
   methods: {
-    isCurrentPage(path) {
-      return this.$route.path === path;
+    isCurrentPage (path) {
+      return this.$route.path === path
     }
   }
 }
@@ -35,13 +35,17 @@ export default {
           <Icon name="heroicons-outline:menu" />
         </button>
       </div>
-      <div class="hidden justify-end items-center w-full md:flex md:w-auto md:grow md:order-1" id="mobile-menu">
+      <div id="mobile-menu" class="hidden justify-end items-center w-full md:flex md:w-auto md:grow md:order-1">
         <ul class="flex flex-col mt-4 items-end md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium text-gray-500 dark:text-gray-200">
           <li>
-            <NuxtLink to="/" class="font-bold block py-2 pr-4 pl-3">Stories</NuxtLink>
+            <NuxtLink to="/" class="font-bold block py-2 pr-4 pl-3">
+              Stories
+            </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" class="block py-2 pr-4 pl-3">About</NuxtLink>
+            <NuxtLink to="/about" class="block py-2 pr-4 pl-3">
+              About
+            </NuxtLink>
           </li>
         </ul>
       </div>
