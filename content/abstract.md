@@ -1,5 +1,5 @@
 ---
-title: 'Abstract Title'
+title: 'Abstract'
 head.title: 'Abstract'
 head.description: 'Abstract Text'
 head.image: 'Custom Image'

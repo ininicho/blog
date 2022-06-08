@@ -26,7 +26,7 @@ export default {
   <nav class="flex flex-row justify-center px-16 pt-12 pb-6">
     <div class="container flex flex-wrap justify-between items-center">
       <NuxtLink to="/" class="flex justify-start items-center ml-0">
-        <p class="text-xl font-bold text-gray-800 dark:text-gray-200">NS</p>
+        <Icon name="carbon:cafe" class="w-10 h-10 text-xl font-bold text-gray-700 dark:text-gray-300" />
       </NuxtLink>
       <div class="flex justify-end items-center md:order-2 text-gray-500 dark:text-gray-200">
         <ColorModeSwitch class="hover:text-gray-700 dark:hover:text-gray-300 px-5" />

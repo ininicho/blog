@@ -1,10 +1,9 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'Home',
-});
+  title: 'Home'
+})
 
-const contentQuery = await queryContent().limit(5).find();
-console.log(contentQuery.map(c => c._path));
+// const contentQuery = await queryContent().limit(5).find()
 </script>
 
 <template>

@@ -1,13 +1,13 @@
 <template>
-    <div>
-        <Html lang="en" />
-        <Head>
-            <title>Nic</title>
-        </Head>
-        <NuxtLayout name="default">
-            <NuxtPage/>
-        </NuxtLayout>
-    </div>
+  <div>
+    <Html lang="en" />
+    <Head>
+      <title>Nic</title>
+    </Head>
+    <NuxtLayout name="default">
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
 
 <style lang="postcss">
