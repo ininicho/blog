@@ -18,9 +18,10 @@ const content = "I'm a student in the University of Waterloo studying Computer S
     </div>
     <div class="hidden items-center justify-center hover:text-gray-700 dark:hover:text-gray-300 md:flex md:flex-row md:basis-1/5">
       <a href="/"><Icon name="mdi:twitter" class="mx-4" /></a>
+      <a href="/"><Icon name="mdi:linkedin" class="mx-4" /></a>
+      <a href="/"><Icon name="mdi:github" class="mx-4" /></a>
       <a href="/"><Icon name="mdi:instagram" class="mx-4" /></a>
       <a href="/"><Icon name="ic:outline-discord" class="mx-4" /></a>
-      <a href="/"><Icon name="mdi:linkedin" class="mx-4" /></a>
       <a href="/"><Icon name="material-symbols:person-pin" class="mx-4" /></a>
     </div>
   </div>

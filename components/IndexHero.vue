@@ -6,5 +6,6 @@
         student, writer, and software tinkerer.
       </p>
     </div>
+    <IndexHeroBio />
   </div>
 </template>
