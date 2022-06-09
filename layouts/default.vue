@@ -1,8 +1,8 @@
 <template>
   <div class=".layout-styled container mx-auto">
-    <NavigationBar />
+    <TheNavbar />
     <slot />
-    <FooterSection />
+    <TheFooter />
   </div>
 </template>
 

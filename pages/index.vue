@@ -4,9 +4,9 @@
 
 <template>
   <div class="flex flex-col justify-center px-16">
-    <HeroSection />
-    <BioSection />
-    <BioCard />
-    <WorksSection />
+    <IndexHero />
+    <IndexBio />
+    <IndexWorks />
+    <IndexGallery />
   </div>
 </template>

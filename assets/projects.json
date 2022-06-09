@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://source.unsplash.com/random/800x600",
+      "article": "Article",
+      "link": "/article"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://source.unsplash.com/random/800x600",
+      "article": "Article",
+      "link": "/article"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://source.unsplash.com/random/800x600",
+      "article": "Article",
+      "link": "/article"
+    }
+  ]
