@@ -18,12 +18,10 @@
         <a href="/"><Icon name="mdi:linkedin" class="mx-3" /></a>
       </div>
     </div>
-    <div class="basis-1/2 mb-24">
-      <div class="flex-col items-center text-gray-900">
-        <input id="name" type="text" name="name" class="block w-3/4 outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Name">
-        <input id="email" type="text" name="email" class="block w-3/4 outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Email">
-        <textarea id="message" name="message" class="block w-3/4 h-48 resize-none outline-none px-6 py-6 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Type your message here" />
-      </div>
+    <div class="basis-1/2 mb-24 flex-col items-start text-gray-900">
+      <input id="name" type="text" name="name" class="block w-3/4 outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Name">
+      <input id="email" type="text" name="email" class="block w-3/4 outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Email">
+      <textarea id="message" name="message" class="block w-3/4 h-48 resize-none outline-none px-6 py-6 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Type your message here" />
       <button class="block w-1/3 bg-gray-500 text-gray-200 py-5">
         Submit
       </button>

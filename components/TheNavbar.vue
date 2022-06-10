@@ -4,13 +4,17 @@ export default {
     return {
       navItems: [
         {
-          name: 'Stories',
+          name: 'Home',
           route: '/'
         },
         {
-          name: 'About',
-          route: '/about'
+          name: 'Stories',
+          route: '/stories'
         }
+        // {
+        //   name: 'About',
+        //   route: '/about'
+        // }
       ]
     }
   },
@@ -37,14 +41,9 @@ export default {
       </div>
       <div id="mobile-menu" class="hidden justify-end items-center w-full md:flex md:w-auto md:grow md:order-1">
         <ul class="flex flex-col mt-4 items-end md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium text-gray-500 dark:text-gray-200">
-          <li>
-            <NuxtLink to="/" class="font-bold block py-2 pr-4 pl-3">
-              Stories
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/about" class="block py-2 pr-4 pl-3">
-              About
+          <li v-for="(navItem, index) in navItems" :key="index">
+            <NuxtLink :to="navItem.route" class="block py-2 pr-4 pl-3">
+              {{ navItem.name }}
             </NuxtLink>
           </li>
         </ul>
