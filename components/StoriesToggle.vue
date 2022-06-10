@@ -8,8 +8,8 @@
       </NuxtLink>
       <div class="flex flex-wrap">
         <p class="text-md">
-          Aside from debugging code, I love writing. Turning thoughts into words or code.
-          This blog is a medium to share my story.
+          Writing and translating my thoughts into words and code.
+          I built this blog as a medium to share all my stories.
         </p>
       </div>
     </div>

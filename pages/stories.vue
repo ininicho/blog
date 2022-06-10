@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col w-full justify-center text-gray-700 dark:text-gray-200">
-    <div class="basis-1/2 justify-center mt-10">
+  <div class="flex flex-col w-full px-16 justify-center text-gray-700 dark:text-gray-200">
+    <div class="basis-1/2 justify-center mt-24">
       <p class="font-bold text-9xl text-center leading-normal">
         Stories
       </p>
@@ -9,6 +9,7 @@
       </p>
     </div>
     <StoriesToggle />
+    <StoriesPostsWrapper />
   </div>
 </template>
 
