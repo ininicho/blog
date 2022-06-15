@@ -3,7 +3,7 @@
     <div class="flex flex-row md:basis-1/2 items-center">
       <NuxtLink to="/about">
         <div class="w-10 h-10 mx-3">
-          <img src="/assets/profile.jpg" alt="Cover" class="rounded-full w-10 h-10">
+          <img src="@/static/profile.jpg" alt="Cover" class="rounded-full w-10 h-10">
         </div>
       </NuxtLink>
       <div class="flex flex-wrap">
