@@ -1,8 +1,8 @@
 <script setup lang="ts">
+import biocard from '@/static/biocard.jpg'
 const bioCardContent = await queryContent()
   .where({ title: 'BioCard' })
   .findOne()
-
 </script>
 
 <template>
@@ -11,7 +11,7 @@ const bioCardContent = await queryContent()
       <ContentRenderer :value="bioCardContent" unwrap="p" />
     </div>
     <div class="basis-2/5 px-7">
-      <img src="/assets/biocard.jpg" alt="Cover" class="object-cover rounded-3xl">
+      <img :src="biocard" alt="Cover" class="object-cover rounded-3xl">
     </div>
   </div>
 </template>

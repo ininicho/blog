@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import GalleryItems from '../assets/projects.json'
+import GalleryItems from '@/assets/projects.json'
 export default {
   data () {
     return {
