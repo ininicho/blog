@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col justify-center py-6 px-6">
+  <div class="flex flex-col justify-center py-3 md:py-6 md:px-6">
     <div class="flex mb-5">
       <img :src="item.image" :alt="item.title" class="object-cover rounded-2xl">
     </div>
     <div class="flex flex-col justify-center my-5">
-      <p class="text-3xl font-semibold">
+      <p class="text-xl md:text-3xl font-semibold">
         {{ item.title }}
       </p>
       <p class="text-md">

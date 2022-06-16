@@ -1,9 +1,9 @@
 <template>
-  <div class="flex-col flex-wrap py-7 mt-5 md:mb-10 items-center text-gray-700 dark:text-gray-200">
-    <p class="text-4xl pl-5 font-semibold">
+  <div class="flex-col flex-wrap md:py-7 mt-5 md:mb-10 items-center text-gray-700 dark:text-gray-200">
+    <p class="text-3xl md:text-4xl md:pl-5 font-semibold">
       Latest Works
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-3 pt-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 pt-6">
       <IndexGalleryItem
         v-for="(item, index) in items"
         :key="index"

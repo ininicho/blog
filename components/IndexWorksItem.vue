@@ -19,13 +19,13 @@ export default {
 </script>
 
 <template>
-  <div v-if="work.show" class="flex flex-row px-5 py-5">
+  <div v-if="work.show" class="flex flex-row md:px-5 py-5">
     <div class="hidden md:flex pr-5 justify-center items-baseline">
       <img :src="image" :alt="work.image" class="object-cover">
     </div>
-    <div class="flex flex-col px-2">
+    <div class="flex flex-col md:px-2">
       <div class="flex flex-wrap">
-        <p class="text-2xl">
+        <p class="text-xl md:text-2xl">
           {{ work.title }}
         </p>
         <p class="text-md">
