@@ -1,8 +1,12 @@
 ---
-title: 'Abstract'
-head.title: 'Abstract'
-head.description: 'Abstract Text'
-head.image: 'Custom Image'
+type: story
+title: Abstract
+date: 2022-06-16
+description: Badabing Badaboom! This is an abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+image: knituniverse
+author: Nicholaus Suprapto
+tags: 
+  - Self-Help
 ---
 
 # Abstract
