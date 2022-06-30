@@ -59,12 +59,21 @@ export default {
             <Icon :name="menuIcon" />
           </button>
         </div>
+        <div class="hidden justify-end items-center md:flex md:w-auto md:grow md:order-1">
+          <ul class="flex flex-col mt-4 items-end md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium text-gray-500 dark:text-gray-200">
+            <li v-for="(navItem, index) in navItems" :key="index">
+              <NuxtLink :to="navItem.route" class="block py-2 pr-4 pl-3">
+                {{ navItem.name }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div :class="showCollapseMenu" class="flex fixed justify-center w-screen h-screen backdrop-opacity-20 bg-gray-50 dark:bg-gray-900">
       <ul class="flex flex-col translate-y-10 place-items-center items-center font-bold text-gray-500 dark:text-gray-200 text-5xl">
         <li v-for="(navItem, index) in navItems" :key="index" class="py-3">
-          <NuxtLink :to="navItem.route" class="block py-2">
+          <NuxtLink :to="navItem.route" class="block py-2" @click="handleCollapseMenu">
             {{ navItem.name }}
           </NuxtLink>
         </li>
