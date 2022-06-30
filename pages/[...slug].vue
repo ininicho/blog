@@ -1,12 +1,14 @@
 <template>
-  <div class="max-w-2xl px-4 py-10 m-auto bg-white sm:px-8 sm:shadow dark:bg-gray-800 sm:rounded">
+  <div class="flex flex-col w-full px-16 justify-center text-gray-700 dark:text-gray-200">
     <!-- Fetch and display the Markdown document from current path -->
-    <ContentDoc class="prose prose-gray dark:prose-invert max-w-none">
+    <ContentDoc class="prose prose-gray dark:prose-invert max-w-none py-6 px-6">
       <!-- Slot if document is not found -->
       <template #not-found>
-        <h1 class="text-2xl">
-          Page not found
-        </h1>
+        <div class="flex py-6 px-6 h-80 items-center">
+          <h1 class="text-4xl font-bold">
+            <Icon name="mdi:magnify" class="w-12 h-12"/> Page not found 
+          </h1>
+        </div>
       </template>
     </ContentDoc>
   </div>
