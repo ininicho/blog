@@ -1,13 +1,21 @@
 ---
 type: story
+date: 2020-06-12
+image: corruptsystem
+title: The Corrupt System
+description: My take on our current social system and how it is corrupting our society. 
+---
+
+::story-layout
+---
 title: The Corrupt System
 date: 2020-06-12
-description: My take on our current social system and how it is corrupting our society. 
-image: station
+image: corruptsystem
 author: Nicholaus Suprapto
 tags: 
   - Abstract
 ---
+
 The death of George Floyd in the hands of a white police sparked protests all around the world. People are starting to realize that there is a big problem in society, racism. Racism is not something new in the 21st century. This ideology of differentiation has taken many forms in the advent of human civilization. But most importantly, racism marginalize humanity. It differentiates ethnic groups, religion, and skin color. Some of us might be wondering. How could humans eradicate deadly viruses, but not eradicate racism from society? In my opinion, an underlying factor of racism is the corrupt system. In our liberal system, there lies a structural oppression to certain social classes. Therefore, the key to fighting racism is breaking this system through education and globalism.
 
 ## Structural Oppression
@@ -22,7 +30,11 @@ Half a century ago, racism grow whilst Europeans practice imperialism. When the 
 
 Liberal capitalism reinforces racism. In fact, in my opinion, racism is the byproduct of liberal capitalism. In a society of various social classes, racism always has a special place. For example, the seats of America's elites are mostly occupied by whites, while black people are being tossed around in the streets of poverty. A research made a clear connection between race and wealth of Americans. To no surprise, fewer whites live in poverty rather than any other race. Social gaps continue to develop in the presence of liberalism. Oppression to "lower" classes ensues, creating social stigmas and biases in society. While capitalists get richer in this system, the powerless stay poor.
 
-![Placeholder](/assets/images/blackpoverty.jpg)
+::story-image
+---
+image: blackpoverty
+---
+::
 
 To mitigate the oppression of low and middle classes, mere words have no power. Action must be done.
 
@@ -30,7 +42,11 @@ To mitigate the oppression of low and middle classes, mere words have no power. 
 
 First of all, education equity must be reached. There is a difference between equity and equality. In education equality, everyone receives the same amount of education. However, the notion of equality would not work out well in society. Some people would definitely have a greater edge than others. People who study in cities would have received better prior education in their early years. If everyone receives the same education, there would still be an education gap in society. Hence, reinforcing social walls built by racism. This is where education equity takes place. Education equity focuses on the needs of the people. Social or personal circumstances like skin color, gender, and ethnic origin should not be an obstacle for education. In other words, education equity standardizes the potential of students, not their treatment in schools. An illustration below clearly depicts the difference of education equality and equity.
 
-![Placeholder](/assets/images/equality.jpg)
+::story-image
+---
+image: equality
+---
+::
 
 All these years, every country is trying their best to reach education equality. Take Indonesia as an example. In this blooming country, there is a big gap of education difference. Java Island, the heart of Indonesia's economy, has a better education than other schools in remote cities like Jayapura and Sumba. Although the government has been trying to standardize education throughout the nation, there is still a big gap of education in society. To exemplify, Indonesia hosts national exams every year, and every year, the top 50 school's average are crowded by schools in Jakarta. In my opinion, the government does not realize the different needs of the people (or they do not care). People in rural areas mainly suffice as farmers. Therefore, children spend more time in the paddy fields. Hence, what they really need is more attention to school habits. Children in rural areas need to adopt studying habits since early ages in order to strengthen their foundations of education. Consequently, education equity is more beneficial than education equality.
 
@@ -49,3 +65,5 @@ Through nationalism, nations grow and so does racism. The Asian discrimination i
 Globalism is much bigger than nationalism. In nationalism, people are divided into nations.  On the other hand, globalism includes everyone in this world. Hence, there will be no place for marginalization in society. Recall the illustration of education equity and equality. Education equality gives all students the same support while education equity accommodates each student differently. However, what if we could break down the walls. In society, these walls are called systemic barriers. These barriers, which includes social biases and class privileges cause people to not have equal access in society. Nationalism builds up these walls. On the other hand, imagine if globalism takes its place. Since everyone is from the same nation, these barriers would not have to be met. Hence, globalism will eradicate racism. After all, we are all the same species living under the same sky.
 
 All in all, racism and marginalization of our corrupt system could only be conquered if two conditions are met; education equity and people adopt globalism. Through education equity, everyone will have equal potentials in society. Ethnic biases would not create education barriers. Consequently, creating equal access to everyone in society. Furthermore, globalism will create a world without marginalization. Since people are all of the same nation, racism would cease to exist, creating a better world. As a final remark, I believe that a change will soon happen. Society will adopt a new system that can fulfill the job our current society could not, finding beauty in diversity.
+::
+

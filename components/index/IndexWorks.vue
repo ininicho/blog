@@ -1,5 +1,5 @@
 <script lang="ts">
-import worksContent from '../assets/works.json'
+import worksContent from '@/assets/works.json'
 export default {
   data () {
     return {

@@ -1,8 +1,6 @@
 <template>
   <NuxtLink :to="story._path" class="flex flex-col md:px-10 py-10">
-    <div class="overflow-clip max-h-96 rounded-2xl">
-      <img :src="imagePath" :alt="story.image">
-    </div>
+    <img class="object-cover object-center w-full h-96 rounded-2xl" :src="imagePath" :alt="story.image">
     <p class="text-3xl md:text-4xl font-bold mt-6">
       {{ story.title }}
     </p>
@@ -42,7 +40,7 @@ export default ({
   },
   methods: {
     async importImage (image) {
-      const img = await import(`../static/${image}.jpg`)
+      const img = await import(`../../static/${image}.jpg`)
       this.imagePath = img.default
     }
   }

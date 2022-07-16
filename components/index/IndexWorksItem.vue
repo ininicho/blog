@@ -12,7 +12,7 @@ export default {
     }
   },
   async mounted () {
-    const img = await import(`../static/${this.work.image}.jpg`)
+    const img = await import(`../../static/${this.work.image}.jpg`)
     this.image = img.default
   }
 }

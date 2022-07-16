@@ -1,13 +1,21 @@
 ---
 type: story
+date: 2020-10-04
+image: placeholder-22
+title: Loneliness Pandemic
+description: the pandemic brings a lot of stress to the world. it's a time of great uncertainty and uncertainty, but also a time of great loneliness.
+---
+
+::story-layout
+---
 title: Loneliness Pandemic
 date: 2020-10-04
-description: The pandemic brings a lot of stress to the world. It's a time of great uncertainty and uncertainty, but also a time of great loneliness.
-image: universeedge
+image: placeholder-22
 author: Nicholaus Suprapto
 tags: 
-  - Self-Help
+  - self-help
 ---
+
 After nine months passed, 2020 is indeed a hell of a year.  With the pandemic still going wild, everyone is stuck at home in quarantine. Public places closed, group meetings reduced, school and work are all done from home. This rapid change has surely affected our lives. Physically, people are probably gaining some weight due to lack of movement and too much Netflix. Mentally, this virus is driving us crazy. Besides Covid-19, loneliness is also spreading from person to person, creating a new pandemic.
 
 In this decade, communication has advanced significantly. I could be video calling my friends in other continents with just a few clicks. In fact, most schools moved the teaching process virtually during this pandemic. Students and teachers don't have to meet in-person for school. On the other hand, classes are held in video conferences. This advance in technology has enabled us to become more connected than ever. However, we still feel lonely sometimes. In fact, we are feeling lonelier than ever during quarantine and it's slowly killing us from inside.
@@ -23,3 +31,5 @@ One particular steppingstone in the evolution of our social needs is the industr
 This year, the pandemic exacerbates the lack of social interaction. In this new normal era, people have to stay at home to prevent the spread of this novel virus. School, work, and personal life are all mixed up and served in one plate, quarantine. Since public places are closed, movie dates and dinner hangouts are things of the past in the new normal. People are stripped off their ability to meet and interact with their peers. Hence, we are now stuck in a loneliness bubble waiting to pop.
 
 I believe that in this pandemic, loneliness spreads as fast as the virus. People are feeling stressed out at home. Personal boundaries vanish into thin air. However, despite all this painful grudge, you are not alone. There are many more people feeling this way, even I do feel lonely. One thing I have learned over this pandemic, in these desperate times, sometimes it is okay to not be okay. On a different note, we must not let this loneliness creep into our bones like the virus does. We must be able to accept our feelings but not let it manifest into ourselves. I will be sharing some antidotes to loneliness on my next post. I hope that it may be of a benefit. Stay strong and stay sane! 
+::
+

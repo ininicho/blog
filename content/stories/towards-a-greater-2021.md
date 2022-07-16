@@ -1,13 +1,21 @@
 ---
 type: story
+date: 2021-02-17
+image: placeholder-24
+title: Towards a Greater 2021
+description: Sharing hard-earned life lessons from 2020.
+---
+
+::story-layout
+---
 title: Towards a Greater 2021
 date: 2021-02-17
-description: Sharing hard-earned life lessons from 2020.
-image: trexcowboy
+image: placeholder-24
 author: Nicholaus Suprapto
 tags: 
   - Self-Help
 ---
+
 2020 is one hell of a year. But through all the ups and downs, there are lessons to be learned from this god-forsaken year. With some reflection upon all the dwellings 2020 had in hand, I learned an important lesson, investing. 2020 made me realize the importance of investing in life. When investing comes to mind, it is reminiscent of money. However, not just investing financially, 2020 also made me learn about the importance of investing in health and time.
 
 During this pandemic and work-from-home situation, many people started trading stocks, not just in Indonesia but everywhere else in the world. Although only a few made real money out of it, in my opinion, this trend made everyone learn the importance of financial literacy. Our education system forces us to study economics but not about our household economy. I would bet a hundred bucks that no school course teaches us where to invest our savings. Luckily, this pandemic made me closer to my dad, which in my opinion, is a well-learned financial man. Although he might not be the brightest student in school, he has plenty of knowledge about money. I started reaching out to him to learn, and I learned a lot from him.
@@ -29,3 +37,5 @@ Time is precious; therefore, we have to save it. I calculated the time I spent o
 Therefore, I hope that we could all realize the importance of investing in time. Try to declutter our daily lives from the hectic social media apps. Save up some time to learn something new, invest in our knowledge. Someday, and it will eventually come, all these small investments that we make will indeed pay off. Invest financially, and you will survive any crisis. Invest in your health, and you will survive any disease. Invest in your time, and you will become a more remarkable person. I hope that this small reflection becomes a reminder to all of us of the importance of investing. 
 
 >What have you learned from 2020?
+::
+
