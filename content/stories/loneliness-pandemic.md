@@ -13,7 +13,7 @@ date: 2020-10-04
 image: placeholder-22
 author: Nicholaus Suprapto
 tags: 
-  - self-help
+  - Self-Help
 ---
 
 After nine months passed, 2020 is indeed a hell of a year.  With the pandemic still going wild, everyone is stuck at home in quarantine. Public places closed, group meetings reduced, school and work are all done from home. This rapid change has surely affected our lives. Physically, people are probably gaining some weight due to lack of movement and too much Netflix. Mentally, this virus is driving us crazy. Besides Covid-19, loneliness is also spreading from person to person, creating a new pandemic.

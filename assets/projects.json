@@ -1,23 +1,26 @@
 [
     {
-      "title": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "title": "Binary Classifiaction Model",
+      "description": "First Place winner for the Aipaca Challenge in CxC 2022 hosted by UW CS Club and aipaca.ai. The model classifies animal images into alpacas and not alpacas",
       "image": "https://source.unsplash.com/random/800x600",
-      "article": "Article",
-      "link": "/article"
+      "article": "CxC Challenge",
+      "link": "/stories",
+      "icon": "simple-icons:tensorflow"
     },
     {
-      "title": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "title": "C++ Compiler",
+      "description": "Compiler of a subset of the C++ language. Takes C++ files and transforms it into ARM code",
       "image": "https://source.unsplash.com/random/800x600",
-      "article": "Article",
-      "link": "/article"
+      "article": "CS 241 Compiler",
+      "link": "/stories",
+      "icon": "simple-icons:cplusplus"
     },
     {
-      "title": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "title": "Spotify Listening Habits",
+      "description": "Data analysis of my Spotify listening habits using data downloaded directly from my personal usage of Spotify",
       "image": "https://source.unsplash.com/random/800x600",
-      "article": "Article",
-      "link": "/article"
+      "article": "Spotify Data Analysis",
+      "link": "/stories",
+      "icon": "simple-icons:python"
     }
   ]

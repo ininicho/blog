@@ -1,5 +1,5 @@
 ---
-type: story
+type: abstract
 date: 2022-06-15
 image: knituniverse
 title: Abstract

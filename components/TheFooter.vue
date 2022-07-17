@@ -12,19 +12,63 @@
         </p>
       </div>
       <div class="flex flex-wrap">
-        <a href="/"><Icon name="mdi:twitter" class="mr-3" /></a>
-        <a href="/"><Icon name="mdi:instagram" class="mx-3" /></a>
-        <a href="/"><Icon name="ic:outline-discord" class="mx-3" /></a>
-        <a href="/"><Icon name="mdi:linkedin" class="mx-3" /></a>
+        <a href="https://twitter.com/ininicho_"><Icon name="mdi:twitter" class="mr-3" /></a>
+        <a href="https://instagram.com/ininicho_"><Icon name="mdi:instagram" class="mx-3" /></a>
+        <a href="https://open.spotify.com/user/nicho101002"><Icon name="mdi:spotify" class="mx-3" /></a>
+        <a href="https://www.linkedin.com/in/nicholaus-suprapto-73abb8190/"><Icon name="mdi:linkedin" class="mx-3" /></a>
       </div>
     </div>
     <div class="md:basis-1/2 mb-24 md:mx-6 px-6 flex-col items-start text-gray-900">
-      <input id="name" type="text" name="name" class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Name">
-      <input id="email" type="text" name="email" class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Email">
-      <textarea id="message" name="message" class="block w-full h-48 resize-none outline-none px-6 py-6 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" placeholder="Type your message here" />
-      <button class="block w-1/3 bg-gray-500 text-gray-200 py-5">
+      <input 
+        v-model="name"
+        type="text" 
+        placeholder="Name"
+        class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" 
+      />
+      <input 
+        v-model="email"
+        type="text" 
+        placeholder="Email"
+        class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" 
+      />
+      <textarea 
+        v-model="message"
+        placeholder="Type your message here"
+        class="block w-full h-48 resize-none outline-none px-6 py-6 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" 
+      />
+      <button 
+        class="block w-1/3 bg-gray-500 text-gray-200 py-5"
+        @click="handleSubmit"
+      >
         Submit
       </button>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+export default ({
+  data() {
+    return {
+      name: '',
+      email: '',
+      message: '',
+    }
+  },
+  methods: {
+    resetForm() {
+      this.name = '';
+      this.email = '';
+      this.message = '';
+    },
+    handleSubmit() {
+      const emailSubject = 'subject=' + encodeURIComponent("Hey it's " + this.name + ' - ' + this.email);
+      const emailMesssage = 'body=' + encodeURIComponent(this.message);
+      const emailLink = 'mailto:nsuprapt@uwaterloo.ca?' + [emailSubject, emailMesssage].join('&');
+      window.open(emailLink);
+      this.resetForm();
+    }
+  }
+})
+</script>
+

@@ -2,20 +2,20 @@
     {
         "id": 1,
         "show": true,
-        "title": "FarmLink Marketing Solutions",
-        "description": "A marketing solution for farms",
+        "title": "FarmLink",
+        "description": "Software Developer Intern",
         "image": "diner",
-        "text": "I'm currently a third year student studying Computer Science at the University of Waterloo. \n I'm also currently in an internship at FarmLink Marketing Solutions, working as a software developer. \n I specialize in fullstack web development. I love to learn new frameworks and languages, and I'm always looking to improve my skills. I'm also a big fan of the open-source community, and I'm always looking to learn new things. I write about my journey as a developer and many other things.",
-        "link": "paramountcommerce.com",
-        "url": "https://www.paramountcommerce.com/"
+        "text": "Working as a Software Devloper intern in FarmLink. Worked on fullstack web development of the GrainFox application. Vue and Django",
+        "link": "farmlinksolutions.ca",
+        "url": "https://www.farmlinksolutions.ca/"
       },
       {
         "id": 2,
         "show": true,
         "title": "Paramount Commerce",
-        "description": "A company that provides payment solution for online gaming",
+        "description": "Merchant Integrations Analyst Intern",
         "image": "station", 
-        "text": "I'm currently a third year student studying Computer Science at the University of Waterloo. \n I'm also currently in an internship at FarmLink Marketing Solutions, working as a software developer. \n I specialize in fullstack web development. I love to learn new frameworks and languages, and I'm always looking to improve my skills. I'm also a big fan of the open-source community, and I'm always looking to learn new things. I write about my journey as a developer and many other things.",
+        "text": "Certified merchant integrations and utilized SQL to query important information that helps clients integrate with the organizations payment products",
         "link": "paramountcommerce.com",
         "url": "https://www.paramountcommerce.com/"
       },
@@ -23,10 +23,10 @@
         "id": 3,
         "show": true,
         "title": "University of Waterloo",
-        "description": "A company that provides payment solution for online gaming",
+        "description": "Undergraduate Tutor",
         "image": "einstein",
-        "text": "I'm currently a third year student studying Computer Science at the University of Waterloo. \n I'm also currently in an internship at FarmLink Marketing Solutions, working as a software developer. \n I specialize in fullstack web development. I love to learn new frameworks and languages, and I'm always looking to improve my skills. I'm also a big fan of the open-source community, and I'm always looking to learn new things. I write about my journey as a developer and many other things.",
-        "link": "paramountcommerce.com",
-        "url": "https://www.paramountcommerce.com/"
+        "text": "Provided extended learning for math students that are taking Math 135/136: Linear Algebra and 137/138: Calculus in Winter 2022",
+        "link": "uwaterloo.ca/tutoring-centre",
+        "url": "https://uwaterloo.ca/math/tutoring-centre"
       }
 ]
