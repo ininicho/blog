@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-between mt-14 md:mt-28 py-7 text-gray-500 dark:text-gray-200">
+  <div class="flex flex-row justify-between mt-14 md:mt-28 py-7">
     <div class="flex flex-row md:basis-1/2 items-center">
       <NuxtLink to="/about">
         <div class="w-10 h-10 mx-3">
@@ -23,3 +23,11 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  name: 'StoriesToggle',
+  emits: ['change-layout']
+}
+</script>
+

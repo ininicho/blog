@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 py-6 md:pb-12 px-5 lg:px-16 lg:mx-12 items-start text-gray-700 dark:text-gray-200">
+  <div class="grid grid-cols-1 md:grid-cols-2 py-6 md:pb-12 px-5 lg:px-16 lg:mx-12 items-start">
     <div class="lg:basis-1/2 flex-col px-6 py-6">
       <div>
         <p class="text-4xl font-semibold">
@@ -23,18 +23,18 @@
         v-model="name"
         type="text" 
         placeholder="Name"
-        class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" 
+        class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 text-gray-200 dark:bg-gray-200 dark:text-gray-700" 
       />
       <input 
         v-model="email"
         type="text" 
         placeholder="Email"
-        class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" 
+        class="block w-full outline-none px-6 py-4 my-5 md:text-md bg-gray-700 text-gray-200 dark:bg-gray-200 dark:text-gray-700" 
       />
       <textarea 
         v-model="message"
         placeholder="Type your message here"
-        class="block w-full h-48 resize-none outline-none px-6 py-6 my-5 md:text-md bg-gray-700 dark:bg-gray-200 text-gray-700" 
+        class="block w-full h-48 resize-none outline-none px-6 py-6 my-5 md:text-md bg-gray-700 text-gray-200 dark:bg-gray-200 dark:text-gray-700" 
       />
       <button 
         class="block w-1/3 bg-gray-500 text-gray-200 py-5"

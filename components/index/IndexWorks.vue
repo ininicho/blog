@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex-col flex-wrap mt-5 py-3 md:py-7 items-center text-gray-700 dark:text-gray-200">
+  <div class="flex-col flex-wrap mt-5 py-3 md:py-7 items-center">
     <div class="text-3xl md:text-4xl md:pl-5 font-semibold">
       📌 Experiences
     </div>

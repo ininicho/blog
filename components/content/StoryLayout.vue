@@ -9,7 +9,7 @@
     <div class="-mx-12 md:mx-0">
       <img class="object-cover object-center w-full h-64 md:h-96 md:rounded-xl" :src="imagePath" :alt="image">
     </div>
-    <div class="-mt-4 -mx-2 md:mx-0 md:mt-0 md:px-32">
+    <div class="-mt-4 -mx-2 md:mx-0 md:mt-0 md:px-32 bg-stone-300 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
       <slot />
     </div>
   </div>

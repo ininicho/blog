@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-col flex-wrap md:py-7 mt-5 md:mb-10 items-center text-gray-700 dark:text-gray-200">
+  <div class="flex-col flex-wrap md:py-7 mt-5 md:mb-10 items-center">
     <p class="text-3xl md:text-4xl md:pl-5 font-semibold">
       🧑‍💻 Latest Works
     </p>

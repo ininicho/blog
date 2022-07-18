@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-center md:justify-start text-gray-900 dark:text-gray-200 md:text-xl">
+  <div class="flex flex-row justify-center md:justify-start md:text-xl">
     <button
       v-if="page > 1"
       class="font-semibold mx-5"
@@ -38,6 +38,8 @@
 
 <script lang="ts">
 export default {
+  name: 'StoriesPagination',
+  emits: ['change-page'],
   props: {
     page: {
       type: Number,
