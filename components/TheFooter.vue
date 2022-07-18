@@ -8,7 +8,7 @@
       </div>
       <div class="md:w-3/4 my-10">
         <p class="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          If you are interested in anything me-related or just wanting to reach out, let me know by sending me a message! Take it sleazy!
         </p>
       </div>
       <div class="flex flex-wrap">

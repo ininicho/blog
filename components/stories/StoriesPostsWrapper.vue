@@ -11,7 +11,7 @@ const stories = await queryContent()
 </script>
 
 <template>
-  <div class="mb-10">
+  <div class="mb-4 md:mb-10">
     <StoriesToggle
       @change-layout="handleChangeLayout"
     />

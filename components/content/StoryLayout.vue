@@ -1,13 +1,15 @@
 <template>
-  <div class="flex flex-col px-16">
-    <div class="flex justify-center py-2 text-7xl font-bold">
+  <div class="flex flex-col">
+    <div class="flex justify-center text-center py-4 md:py-2 text-6xl md:text-7xl font-bold">
       {{ title }}
     </div>
-    <div class="flex justify-center text-lg mb-4">
+    <div class="flex justify-center text-left text-base mt-2 md:text-lg md:mb-4">
       By {{ author }} | {{ dateDisplay }} {{ tagsDisplay }}
     </div>
-    <img class="object-cover object-center w-full h-96 rounded-xl" :src="imagePath" :alt="image">
-    <div class="px-32">
+    <div class="-mx-12 md:mx-0">
+      <img class="object-cover object-center w-full h-64 md:h-96 md:rounded-xl" :src="imagePath" :alt="image">
+    </div>
+    <div class="-mt-4 -mx-2 md:mx-0 md:mt-0 md:px-32">
       <slot />
     </div>
   </div>

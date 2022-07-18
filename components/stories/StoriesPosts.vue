@@ -1,6 +1,6 @@
 <template>
-  <NuxtLink :to="story._path" class="flex flex-col md:px-10 py-10">
-    <img class="object-cover object-center w-full h-96 rounded-2xl" :src="imagePath" :alt="story.image">
+  <NuxtLink :to="story._path" class="flex flex-col md:px-5 py-10">
+    <img class="object-cover object-center w-full h-64 md:h-96 rounded-2xl" :src="imagePath" :alt="story.image">
     <p class="text-3xl md:text-4xl font-bold mt-6">
       {{ story.title }}
     </p>
@@ -10,10 +10,6 @@
     <div class="flex flex-row justify-between items-center mt-3">
       <p class="text-lg md:text-xl font-semibold">
         {{ story.date.replace(/\T.*/, '') }}
-      </p>
-      <p class="text-md font-semibold">
-        <Icon name="mdi:book-open-page-variant" class="hidden md:inline mb-1 mr-1" />
-        {{ 10 }} min read
       </p>
     </div>
   </NuxtLink>

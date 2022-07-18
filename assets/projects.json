@@ -2,7 +2,7 @@
     {
       "title": "Binary Classifiaction Model",
       "description": "First Place winner for the Aipaca Challenge in CxC 2022 hosted by UW CS Club and aipaca.ai. The model classifies animal images into alpacas and not alpacas",
-      "image": "https://source.unsplash.com/random/800x600",
+      "image": "placeholder-15",
       "article": "CxC Challenge",
       "link": "/stories",
       "icon": "simple-icons:tensorflow"
@@ -10,7 +10,7 @@
     {
       "title": "C++ Compiler",
       "description": "Compiler of a subset of the C++ language. Takes C++ files and transforms it into ARM code",
-      "image": "https://source.unsplash.com/random/800x600",
+      "image": "placeholder-16",
       "article": "CS 241 Compiler",
       "link": "/stories",
       "icon": "simple-icons:cplusplus"
@@ -18,7 +18,7 @@
     {
       "title": "Spotify Listening Habits",
       "description": "Data analysis of my Spotify listening habits using data downloaded directly from my personal usage of Spotify",
-      "image": "https://source.unsplash.com/random/800x600",
+      "image": "placeholder-17",
       "article": "Spotify Data Analysis",
       "link": "/stories",
       "icon": "simple-icons:python"

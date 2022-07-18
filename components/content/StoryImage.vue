@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <img class="w-5/6 rounded" :src="imagePath" :alt="image">
+    <img class="w-full md:w-5/6 rounded" :src="imagePath" :alt="image">
   </div>
 </template>
 

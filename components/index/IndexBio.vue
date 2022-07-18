@@ -8,17 +8,17 @@ import biocard from '@/static/biocard-1.jpg'
       <!-- <ContentRenderer :value="bioCardContent" unwrap="p" /> -->
       <span class="py-4 text-4xl font-semibold">Hello World!</span>
       <br>
-      <span class="py-2 text-justify">
+      <span class="py-2 md:text-justify">
         I'm currently a third year student studying Computer Science at the University of Waterloo. 
         Currently in an internship at FarmLink Marketing Solutions, working as a software 
         developer.  
       </span>
-      <span class="py-2 text-justify">
+      <span class="py-2 md:text-justify">
         I specialize in fullstack web development. I love learning new web frameworks and languages, 
         and I'm always looking to improve my skills. I'm also a big fan of the open-source community,
         and I'm always looking forward to learn new things.  
       </span>
-      <span class="py-2 text-justify">
+      <span class="py-2 md:text-justify">
         I write about my journey as a developer and many other things.
       </span>
     </div>

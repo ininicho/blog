@@ -1,16 +1,16 @@
 <template>
-  <div v-if="work.show" class="flex flex-row md:px-5 py-4 my-4">
+  <div v-if="work.show" class="flex flex-row md:px-5 py-4 md:my-4">
     <div class="hidden md:basis-1/3 md:flex pr-5 justify-center items-baseline">
       <img :src="image" :alt="work.image" class="object-cover">
     </div>
-    <div class="flex flex-col basis-2/3 md:px-2">
+    <div class="flex flex-col md:basis-2/3 md:px-2">
       <p class="text-xl md:text-3xl my-1 font-semibold">
         {{ work.title }}
       </p>
       <p class="text-lg font-medium">
         {{ work.description }}
       </p>
-      <p class="text-md text-justify leading-relaxed my-2">
+      <p class="text-md md:text-justify leading-relaxed my-2">
         {{ work.text }}
       </p>
       <p class="text-md font-bold">

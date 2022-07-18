@@ -3,7 +3,7 @@ type: story
 date: 2020-10-04
 image: placeholder-22
 title: Loneliness Pandemic
-description: the pandemic brings a lot of stress to the world. it's a time of great uncertainty and uncertainty, but also a time of great loneliness.
+description: The pandemic brings a lot of stress to the world. It's a time of great uncertainty and uncertainty, but also a time of great loneliness.
 ---
 
 ::story-layout

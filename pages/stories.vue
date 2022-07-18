@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full px-16 justify-center text-gray-700 dark:text-gray-200">
+  <div class="flex flex-col px-10 md:px-16 justify-center text-gray-700 dark:text-gray-200">
     <div class="basis-1/2 justify-center mt-24">
       <p class="font-bold text-6xl md:text-9xl text-center mb-5">
         Stories

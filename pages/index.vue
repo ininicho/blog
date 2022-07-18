@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center px-16">
+  <div class="flex flex-col justify-center px-10 md:px-16">
     <IndexHero />
     <IndexBio />
     <IndexWorks />
